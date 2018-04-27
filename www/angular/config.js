@@ -6,8 +6,8 @@ angular.
         $routeProvider
     ) {
 
-        $locationProvider.html5Mode(false);
-        $locationProvider.hashPrefix('!');
+        //$locationProvider.html5Mode(false);
+        //$locationProvider.hashPrefix('!');
         $routeProvider.
             when('/', {
                 templateUrl: '/index_orange.html'
